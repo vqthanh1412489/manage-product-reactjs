@@ -1,0 +1,22 @@
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show {
+animation: FadeAnimation 1s ease-in .5s forwards;
+
+}
+
+@keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
